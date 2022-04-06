@@ -1,0 +1,112 @@
+{
+
+
+
+    "results": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891758-001bulbasaur.png",
+            "amount": 0
+        },
+        {
+            "id": 2,
+            "name": "Ivysaur",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891759-002ivysaur.png",
+            "amount": 0
+        },
+        {
+            "id": 3,
+            "name": "Venusaur",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891760-003venusaur.png",
+            "amount": 0
+        },
+        {
+            "id": 4,
+            "name": "Charmander",
+            "type": "fire",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891761-004charmander.png",
+            "amount": 0
+        },
+        {
+            "id": 5,
+            "name": "Charmeleon",
+            "type": "fire",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891762-005charmeleon.png",
+            "amount": 0
+        },
+        {
+            "id": 6,
+            "name": "Charizard",
+            "type": "fire",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891763-006charizard.png",
+            "amount": 0
+        },
+        {
+            "id": 7,
+            "name": "Squirtle",
+            "type": "water",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891764-007squirtle.png",
+            "amount": 0
+        },
+        {
+            "id": 8,
+            "name": "Wartortle",
+            "type": "water",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891809-008wartortle.png",
+            "amount": 0
+        },
+        {
+            "id": 9,
+            "name": "Blastoise",
+            "type": "water",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891810-009blastoise.png",
+            "amount": 0
+        },
+        {
+            "id": 10,
+            "name": "Caterpie",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892132-010caterpie.png",
+            "amount": 0
+        },
+        {
+            "id": 11,
+            "name": "Metapod",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1895815-011metapod.png",
+            "amount": 0
+        },
+        {
+            "id": 12,
+            "name": "Butterfree",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1892298-012butterfree.png",
+            "amount": 0
+        },
+        {
+            "id": 13,
+            "name": "Weedle",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891817-013weedle.png",
+            "amount": 0
+        },
+        {
+            "id": 14,
+            "name": "Kakuna",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891818-014kakuna.png",
+            "amount": 0
+        },
+        {
+            "id": 15,
+            "name": "Beedrill",
+            "type": "grass",
+            "picture":"https://www.giantbomb.com/a/uploads/scale_small/13/135472/1891819-015beedrill.png",
+            "amount": 0
+        }
+    ]
+}

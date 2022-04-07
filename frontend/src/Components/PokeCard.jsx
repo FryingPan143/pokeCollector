@@ -9,8 +9,9 @@ export default function PokeCard(props) {
     // const pokeState = useSelector(state => state);
     const [count, setCount] = useState(0);
 
-
+    //funktioner för att lägga till eller ta bort antal. 
     function increment(id) {
+        //skapar ny kopia av count och skickar in det till count efter nytt värde deklarerats
         let newCount = count + 1;
         setCount(newCount)
         dispatch(changePokemon(id, newCount))

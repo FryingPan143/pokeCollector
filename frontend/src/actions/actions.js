@@ -13,10 +13,10 @@ export const addTrainer = (trainer) => {
     }
 }
 
-export const removeTrainer = (trainer) => {
+export const removeTrainer = () => {
     return {
         type: "REMOVE_TRAINER",
-        payload: trainer
+
     }
 }
 

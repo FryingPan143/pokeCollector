@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { addTrainer, removeTrainer } from '../actions/actions';
 import { useNavigate } from "react-router-dom";
 
@@ -13,6 +13,7 @@ export default function TrainerForm() {
 
         setTrainer(trainer => {
             return {
+                //returnerar hela trainerobjektet för att inte förlora eventuella properties när det ändras enbart i name propertyn.
                 ...trainer,
                 name: event.target.value
             }
@@ -32,11 +33,11 @@ export default function TrainerForm() {
 
     function handleClick() {
         dispatch(addTrainer(trainer))
-
+        //skickar trainer till reducern via dispatch
     }
 
     function handleRemove() {
-        dispatch(removeTrainer(trainer))
+        dispatch(removeTrainer())
     }
 
     function goToCollection() {

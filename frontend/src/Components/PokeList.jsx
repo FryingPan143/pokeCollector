@@ -12,7 +12,8 @@ export default function PokeList(props) {
     // const dispatch = useDispatch();
 
     return (
-
+        //ternary på pokeState, annars hinner den inte ta emot datan och skapar då errors, om pokeState får data så skall det mappa ut Pokecard för varje Pokemon som finns 
+        //i listan
         (pokeState) ? pokeState.map((pokemon) => (
             <PokeCard key={pokemon.id} id={pokemon.id} name={pokemon.name} amount={pokemon.amount} type={pokemon.type} img={pokemon.picture} />
         )) : null

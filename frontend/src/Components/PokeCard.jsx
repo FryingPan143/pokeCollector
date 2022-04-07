@@ -6,8 +6,7 @@ import { useState } from 'react';
 
 export default function PokeCard(props) {
     const dispatch = useDispatch()
-    const pokeState = useSelector(state => state);
-
+    // const pokeState = useSelector(state => state);
     const [count, setCount] = useState(0);
 
 

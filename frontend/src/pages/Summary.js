@@ -17,7 +17,7 @@ export default function Summary() {
     }
 
     let results = [];
-    // let elements = [];
+
 
     results = pokeState.filter(pokemon => pokemon.amount > 0) //resultatet på de Pokemons med antal över 0
 
@@ -27,7 +27,6 @@ export default function Summary() {
     return (
         <section className="summary-page">
             <section className="sp-side-panel">
-                {/* <SummaryElements results={results} /> */}
                 {(trainer) ? <TrainerCard trainer={trainer} /> : null}
             </section>
             <section className="sp-pokemons">
@@ -41,11 +40,3 @@ export default function Summary() {
 
 
 
-
-// <section className="summary-page">
-// <section className="summary-page">
-//     {/* {results.map((res) => (
-//         <h1>{res.name}- {res.amount}</h1>
-//     ))} */}
-// </section>
-// </section>

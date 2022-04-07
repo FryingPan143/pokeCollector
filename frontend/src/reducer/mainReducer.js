@@ -14,7 +14,6 @@ const mainReducer = (state, action) => {
             return state
 
         case "ADD_TRAINER":
-
             state.state.trainer = action.payload;
             console.log(state.state.trainer);
             return state

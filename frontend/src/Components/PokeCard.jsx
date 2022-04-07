@@ -8,7 +8,7 @@ export default function PokeCard(props) {
     const dispatch = useDispatch()
     const pokeState = useSelector(state => state);
 
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0);
 
 
     function increment(id) {
